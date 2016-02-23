@@ -1,8 +1,9 @@
 class Neovim < FPM::Cookery::Recipe
     description 'vim, out of the box'
 
-    name    'neovim'
-    version '0.1.2'
+    name        'neovim'
+    version     '0.1.2'
+    revision    '1'
 
     source  "https://github.com/neovim/neovim/archive/v#{version}.tar.gz"
     sha256  '549881465eff82454660ae92d857d6ffa22383d45c94c46f3753fd1b0e699247'
